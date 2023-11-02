@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ind.css">
+    <title>Survey-Page</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="firstName">First Name<span class="required"></span>:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName"><br>
+        <label for="email">Email<span class="required"></span>:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="experience">Your Experience<span class="required"></span>:</label><br>
+        <div class="stars">
+          <input type="radio" id="star5" name="experience" value="5" required>
+          <label for="star5" title="5 stars">&#9733;</label>
+          <input type="radio" id="star4" name="experience" value="4">
+          <label for="star4" title="4 stars">&#9733;</label>
+          <input type="radio" id="star3" name="experience" value="3">
+          <label for="star3" title="3 stars">&#9733;</label>
+          <input type="radio" id="star2" name="experience" value="2">
+          <label for="star2" title="2 stars">&#9733;</label>
+          <input type="radio" id="star1" name="experience" value="1">
+          <label for="star1" title="1 star">&#9733;</label>
+        </div><br><br>
+        <label for="satisfaction">How satisfied are you with us?<span class="required"></span>:</label><br>
+        <div class="satisfaction">
+          <p>Purchase:</p>
+          <input type="checkbox" id="purchaseVerySatisfied" name="purchase" value="Very Satisfied">
+          <label for="purchaseVerySatisfied">Very Satisfied</label>
+          <input type="checkbox" id="purchaseSatisfied" name="purchase" value="Satisfied">
+          <label for="purchaseSatisfied">Satisfied</label>
+          <input type="checkbox" id="purchaseNeutral" name="purchase" value="Neutral">
+          <label for="purchaseNeutral">Neutral</label>
+          <input type="checkbox" id="purchaseUnsatisfied" name="purchase" value="Unsatisfied">
+          <label for="purchaseUnsatisfied">Unsatisfied</label>
+          <input type="checkbox" id="purchaseVeryUnsatisfied" name="purchase" value="Very Unsatisfied">
+          <label for="purchaseVeryUnsatisfied">Very Unsatisfied</label>
+      
+          <p>Service:</p>
+          <input type="checkbox" id="serviceVerySatisfied" name="service" value="Very Satisfied">
+          <label for="serviceVerySatisfied">Very Satisfied</label>
+          <input type="checkbox" id="serviceSatisfied" name="service" value="Satisfied">
+          <label for="serviceSatisfied">Satisfied</label>
+          <input type="checkbox" id="serviceNeutral" name="service" value="Neutral">
+          <label for="serviceNeutral">Neutral</label>
+          <input type="checkbox" id="serviceUnsatisfied" name="service" value="Unsatisfied">
+          <label for="serviceUnsatisfied">Unsatisfied</label>
+          <input type="checkbox" id="serviceVeryUnsatisfied" name="service" value="Very Unsatisfied">
+          <label for="serviceVeryUnsatisfied">Very Unsatisfied</label>
+      
+          <p>Company Overall:</p>
+          <input type="checkbox" id="companyVerySatisfied" name="company" value="Very Satisfied">
+          <label for="companyVerySatisfied">Very Satisfied</label>
+          <input type="checkbox" id="companySatisfied" name="company" value="Satisfied">
+          <label for="companySatisfied">Satisfied</label>
+          <input type="checkbox" id="companyNeutral" name="company" value="Neutral">
+          <label for="companyNeutral">Neutral</label>
+          <input type="checkbox" id="companyUnsatisfied" name="company" value="Unsatisfied">
+          <label for="companyUnsatisfied">Unsatisfied</label>
+          <input type="checkbox" id="companyVeryUnsatisfied" name="company" value="Very Unsatisfied">
+          <label for="companyVeryUnsatisfied">Very Unsatisfied</label>
+        </div><br><br>
+        <label for="comments">Additional comments or Suggestions:</label><br>
+        <div class="comments">
+          <textarea id="comments" name="comments" rows="4"></textarea>
+        </div><br>
+        <input type="submit" value="Submit">
+      </form>
+     
+  
+       
+</body>
+</html>
